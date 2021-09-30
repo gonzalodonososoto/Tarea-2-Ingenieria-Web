@@ -1,0 +1,15 @@
+#formulario {
+  padding: 10px 10px 10px 10px;
+}
+
+.alertaTotal {
+  width: 60%;
+  position: relative;
+  left: 130px;
+  color: red;
+  margin-bottom: 40px;
+}
+
+#mensaje {
+  display: none;
+}
