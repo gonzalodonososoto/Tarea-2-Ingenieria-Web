@@ -49,7 +49,7 @@ formulario.addEventListener("submit",function(evento){
         datosValidos=false;
     }
     if(celular.value.length>0 && !numeroValido.test(celular.value)){
-        alerta+=`Ingrese un número de teléfono válido por favor. (primer digito 9 más 8 dígitos)<br>`;
+        alerta+=`Ingrese un número de teléfono válido por favor. <br>`;
         datosValidos=false;
     }
     if(!python && !ts && !cpp && !c && !php && !ruby && !java && !r && !groovy && !go && !swift && !kotlin){
